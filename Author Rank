@@ -1,7 +1,6 @@
-# Author rank: get the paper from pubmed, count times of the authors
+# Author rank: rank author based on the occurence of their names in the pubmed bibliography
 
 '''
-
 PMID- 24198381
 OWN - NLM
 STAT- In-Data-Review
