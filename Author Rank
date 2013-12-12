@@ -1,0 +1,129 @@
+# Author rank: get the paper from pubmed, count times of the authors
+
+'''
+
+PMID- 24198381
+OWN - NLM
+STAT- In-Data-Review
+DA  - 20131107
+IS  - 1529-2401 (Electronic)
+IS  - 0270-6474 (Linking)
+VI  - 33
+IP  - 45
+DP  - 2013 Nov 6
+TI  - Retrograde BMP Signaling at the Synapse: A Permissive Signal for Synapse
+      Maturation and Activity-Dependent Plasticity.
+PG  - 17937-50
+LID - 10.1523/JNEUROSCI.6075-11.2013 [doi]
+AB  - At the Drosophila neuromuscular junction (NMJ), the loss of retrograde,
+      trans-synaptic BMP signaling causes motoneuron terminals to have fewer synaptic
+      boutons, whereas increased neuronal activity results in a larger synapse with
+      more boutons. Here, we show that an early and transient BMP signal is necessary
+      and sufficient for NMJ growth as well as for activity-dependent synaptic
+      plasticity. This early critical period was revealed by the temporally controlled 
+      suppression of Mad, the SMAD1 transcriptional regulator. Similar results were
+      found by genetic rescue tests involving the BMP4/5/6 ligand Glass bottom boat
+      (Gbb) in muscle, and alternatively the type II BMP receptor Wishful Thinking
+      (Wit) in the motoneuron. These observations support a model where the muscle
+      signals back to the innervating motoneuron's nucleus to activate presynaptic
+      programs necessary for synaptic growth and activity-dependent plasticity.
+      Molecular genetic gain- and loss-of-function studies show that genes involved in 
+      NMJ growth and plasticity, including the adenylyl cyclase Rutabaga, the Ig-CAM
+      Fasciclin II, the transcription factor AP-1 (Fos/Jun), and the adhesion protein
+      Neurexin, all depend critically on the canonical BMP pathway for their effects.
+      By contrast, elevated expression of Lar, a receptor protein tyrosine phosphatase 
+      found to be necessary for activity-dependent plasticity, rescued the phenotypes
+      associated with the loss of Mad signaling. We also find that synaptic structure
+      and function develop using genetically separable, BMP-dependent mechanisms.
+      Although synaptic growth depended on Lar and the early, transient BMP signal, the
+      maturation of neurotransmitter release was independent of Lar and required later,
+      ongoing BMP signaling.
+AD  - Molecular, Cellular, and Developmental Biology Department, Yale University, New
+      Haven, Connecticut 06520, and Department of Cell Biology, Harvard Medical School,
+      Boston, Massachusetts 02115.
+FAU - Berke, Brett
+AU  - Berke B
+FAU - Wittnam, Jessica
+AU  - Wittnam J
+FAU - McNeill, Elizabeth
+AU  - McNeill E
+FAU - Van Vactor, David L
+AU  - Van Vactor DL
+FAU - Keshishian, Haig
+AU  - Keshishian H
+LA  - eng
+PT  - Journal Article
+PL  - United States
+TA  - J Neurosci
+JT  - The Journal of neuroscience : the official journal of the Society for
+      Neuroscience
+JID - 8102140
+SB  - IM
+EDAT- 2013/11/08 06:00
+MHDA- 2013/11/08 06:00
+CRDT- 2013/11/08 06:00
+AID - 33/45/17937 [pii]
+AID - 10.1523/JNEUROSCI.6075-11.2013 [doi]
+PST - ppublish
+SO  - J Neurosci. 2013 Nov 6;p33(45):17937-50. doi: 10.1523/JNEUROSCI.6075-11.2013.
+
+'''
+authors = []
+f = open('pubmed_cns10.txt','r')
+for line in f.readlines():
+    if line.startswith('FAU'):
+        author = line.split(' - ')[-1].strip()
+#        if ',' in author:
+#            author = author.split(',')[0]+' ' + author.split(',')[-1][0]
+        authors.append(author)
+f.close()
+print(authors)
+authorset = set(authors)
+authord = {}
+for author in authorset:
+    authord.update({author:authors.count(author)})
+authorankd = {}
+'''
+for i in authord:
+    print(i,':\t', authord[i])
+'''
+for author in authord:
+    if not authord[author] in authorankd:
+        authorankd.update({authord[author]:[author]})
+    else:
+        authorankd[authord[author]].append(author)
+for i in authorankd:
+    print(i, ':\t', authorankd[i])
+
+elites = []	
+for i in authorankd:
+    if i>2:
+        elites.extend(authorankd[i])
+
+#print(sorted(elites,reverse=True)) sorted by alpha
+print(elites[::-1]) #[::-1] reverse
+
+# never lose )
+# never lose )
+# never extra )
+# never extra )
+
+fo = open('author rank cns10.txt','w+')
+for i in list(authorankd.keys())[::-1]: # for i in authorankd[::-1]:TypeError: unhashable type: 'slice'
+    ri = len(authorankd) - i # alway bear in mind the range of the variable#########!!!
+    fo.write(str(i)) #   fo.write(i) TypeError: must be str, not int
+    for au in authorankd[i]: #for au in authorankd[ri]:KeyError: 0
+        fo.write('\n%s' % au) # fo.write('\t',au)TypeError: write() takes exactly 1 argument (2 given)
+    fo.write('\n\n') 
+
+   
+
+'''
+>>> d = {1:'a',3:'c',2:'b'}
+>>> sorted(d)
+[1, 2, 3]
+>>> sorted(d,reverse = True)
+[3, 2, 1]
+>>> 
+
+'''
