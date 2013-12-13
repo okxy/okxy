@@ -3,7 +3,7 @@
 * [Q & A](# Q & A)
 
 ## Bits of Thoughts
-* [really should have written my paper on github, the accumulated versions of docs is horrible!]
+* Really should have written my paper on github, the accumulated versions of docs is horrible!
 
 ## Q & A
 * Q: How to create a .md file?
