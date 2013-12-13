@@ -12,25 +12,4 @@
 * Q: How to edit font, new line and hyperlink in .md?
    * A: 
 
-#Contents
-* [Beginner's Delight](#beginners-delight)
-* [Style Guide and Idioms](#style-guide-and-idioms)
-
-* [Web](#web)
-    * [Frameworks](#frameworks)
-        * [Flask](#flask)
-        * [Web2Py](#web2py)
-        * [Django](#django)
-        * [Bottle](#bottle)
-    * [API and Web Services](#api-and-web-services)
-    * [Scraping](#scraping)
-
-* [Miscellaneous](#miscellaneous)
-
-
-##Beginner's Delight
-* [Beginner's guide to Python](http://wiki.python.org/moin/BeginnersGuide)
-* [The Hitchhiker's guide to Python](http://docs.python-guide.org/en/latest/)
-* [Learn Python the hard way](http://learnpythonthehardway.org/book/)
-
 
