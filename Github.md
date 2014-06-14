@@ -2,8 +2,14 @@
 * [Bits of Thoughts](# Bits of Thoughts)
 * [Q & A](# Q & A)
 
+##bytes of github
+* Add .md to render this code in md format
+* Oh [my gist](https://gist.github.com/okxy)
+* 2014-6-14 add .py to the name, and the code is hightlighted.
+
 ## Bits of Thoughts
 * Really should have written my paper on github, the accumulated versions of docs is horrible!
+
 
 ## Q & A
 * Q: Is there any suggestions on how to use Github?
