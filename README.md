@@ -5,9 +5,12 @@ Github and me
 
 
 #Meta github
-* [Bits of Thoughts](# Bits of Thoughts)
-* [Q & A](# Q & A)
-
+* [#bytes of github](#bytes-of-github)
+* [Bits of Thoughts](#Bits-of-Thoughts)
+* [Q & A](#Q-&-A)
+* [markdown](#markdown)
+* [git](#git)
+* [licence](#licence)
 ##bytes of github
 * Add .md to render this code in md format
 * Oh [my gist](https://gist.github.com/okxy)
@@ -27,13 +30,8 @@ Github and me
 * Q: How to edit font, new line and hyperlink in .md?
    * A: 
 
-markdown
-====
+## markdown
 * hyperlink use '[to show]''(#the-link)' such as [bookmark to list](#list) 
-* 
-
-##bookmark
-
 * add .py to render the code colorful
 * use --- to render the above line title
 * use *** or '___' to mark the string to be emphasized(in bold) 
@@ -49,10 +47,9 @@ for example
 this is another
 
 
-## git
+##git
 * [Git Basic](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
 
-## licence
+##licence
 * [Choosing an OSS license doesn’t need to be scary](http://choosealicense.com/)
-* 
