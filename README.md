@@ -19,7 +19,7 @@ Github and me
 * My pages
 * 2014-6-14 add .py to the name, and the code is hightlighted.
 
-## Bits of Thoughts
+## Bits of Thoughts ([top↑](#meta-github))
 * Really should have written my paper on github, the accumulated versions of docs is horrible!
 
 
