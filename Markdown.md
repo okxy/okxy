@@ -11,7 +11,7 @@ markdown
 * make a table
 
 ##font and paragraph
-* a separate blank line to produce a paragraph
+* a ***separate blank line*** to produce a paragraph
 
 for example
 
