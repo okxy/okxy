@@ -9,3 +9,6 @@ markdown
 
 ##list
 * make a table
+
+##font and paragraph
+* a separate blank line to produce a paragraph
