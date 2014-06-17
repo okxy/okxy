@@ -48,7 +48,18 @@
 
 拼音 Z ：ze　zeng　zha　zhai　zhan　zhang　zhao　zhe　zhen　zheng　zhi　zhong　zhou　zhu　zhuai　zhun　zhuo　zi　zong　zu　zun
 
-候选
+单名候选
 ---
 ___王___ _ _
+
 zehua, 
+
+产生双字名
+---
+
+```
+
+```
+
+双字名
+---
