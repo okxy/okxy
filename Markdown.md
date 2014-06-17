@@ -1,6 +1,6 @@
 markdown
 ====
-* #[bookbark](#list)
+* hyperlink use '[to show]''(link)' such as [bookbark](#list)
 ##bookmark
 
 * add .py to render the code colorful
