@@ -5,6 +5,7 @@
 ##bytes of github
 * Add .md to render this code in md format
 * Oh [my gist](https://gist.github.com/okxy)
+* My pages
 * 2014-6-14 add .py to the name, and the code is hightlighted.
 
 ## Bits of Thoughts
