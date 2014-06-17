@@ -6,8 +6,8 @@ Github and me
 
 #Meta github
 * [bytes of github](#bytes-of-github)
-* [Bits of Thoughts](#Bits-of-Thoughts)
-* [Q & A](#Q-&-A)
+* [Bits of Thoughts](#bits-of-thoughts)
+* [Q & A](#Q--A)
 * [markdown](#markdown)
 * [git](#git)
 * [licence](#licence)
