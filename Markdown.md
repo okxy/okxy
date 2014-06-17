@@ -1,6 +1,6 @@
 markdown
 ====
-* hyperlink use '[to show]''(#the-link)' such as [bookbark to list](#list) 
+* hyperlink use '[to show]''(#the-link)' such as [bookmark to list](#list) 
 * 
 
 ##bookmark
