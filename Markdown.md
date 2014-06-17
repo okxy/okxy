@@ -12,3 +12,7 @@ markdown
 
 ##font and paragraph
 * a separate blank line to produce a paragraph
+
+for example
+
+this is another
