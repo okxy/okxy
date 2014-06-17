@@ -5,12 +5,14 @@ Github and me
 
 
 #Meta github
-* [#bytes of github](#bytes-of-github)
+* [bytes of github](#bytes-of-github)
 * [Bits of Thoughts](#Bits-of-Thoughts)
 * [Q & A](#Q-&-A)
 * [markdown](#markdown)
 * [git](#git)
 * [licence](#licence)
+ 
+
 ##bytes of github
 * Add .md to render this code in md format
 * Oh [my gist](https://gist.github.com/okxy)
@@ -36,10 +38,9 @@ Github and me
 * use --- to render the above line title
 * use *** or '___' to mark the string to be emphasized(in bold) 
 
-##list
-* make a table
-
-##font and paragraph
+   * list
+   * make a table
+* font and paragraph
 * a ***separate blank line*** to produce a paragraph
 
 for example
