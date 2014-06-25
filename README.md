@@ -13,17 +13,18 @@ Github and me
 * [licence](#licence)
  
 
-##bytes of github ([top↑](#meta-github))
+##bytes of github 
 * Add .md to render this code in md format
 * Oh [my gist](https://gist.github.com/okxy)
 * My pages
 * 2014-6-14 add .py to the name, and the code is hightlighted.
 
-## Bits of Thoughts ([top↑](#meta-github))
+([top↑](#meta-github))
+## Bits of Thoughts 
 * Really should have written my paper on github, the accumulated versions of docs is horrible!
 
-
-## Q & A ([top↑](#meta-github))
+([top↑](#meta-github))
+## Q & A 
 * Q: Is there any suggestions on how to use Github?
   * A: Not yet. But strongly recommend [Kenneth Reitz](http://kennethreitz.org/)'s [Repository Structure and Python](http://kennethreitz.org/repository-structure-and-python/)   
 * Q: How to create a .md file?
@@ -32,7 +33,8 @@ Github and me
 * Q: How to edit font, new line and hyperlink in .md?
    * A: 
 
-## markdown ([top↑](#meta-github))
+([top↑](#meta-github))
+## markdown 
 * hyperlink use '[to show]''(#the-link)' such as [bookmark to list](#list) 
 * add .py to render the code colorful
 * use --- to render the above line title
@@ -47,10 +49,11 @@ for example
 
 this is another
 
-
-##git ([top↑](#meta-github))
+([top↑](#meta-github))
+##git 
 * [Git Basic](http://git-scm.com/book/en/Getting-Started-Git-Basics)
 
-
-##licence ([top↑](#meta-github))
+([top↑](#meta-github))
+##licence 
 * [Choosing an OSS license doesn’t need to be scary](http://choosealicense.com/)
+([top↑](#meta-github))
